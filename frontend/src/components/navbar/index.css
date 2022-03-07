@@ -1,0 +1,30 @@
+header {
+    height: 60px;
+    background-color: rgb(190, 23, 23);
+    display: flex;
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.nav-content h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-link {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+    color: white;
+}

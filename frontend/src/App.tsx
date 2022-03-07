@@ -1,10 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Listing from './pages/listing/index';
+import Form from './pages/form/index';
+import Navbar from "./components/navbar/index";
 
 function App() {
   return (
-    <h1>Página Principal</h1>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Listing />} />
+        <Route path="/form">
+          <Route path=":movieId" element={<Form />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
