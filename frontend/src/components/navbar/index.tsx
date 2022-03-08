@@ -7,7 +7,7 @@ function NavBar() {
         <nav className="container">
             <div className="nav-content">
                 <h1>Movie Display</h1>
-                <a href="https://github.com/devsuperior" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Jdavid77" target="_blank" rel="noreferrer">
                     <div className="contact-container">
                         <img src="https://avatars.githubusercontent.com/u/49655819?v=4" className="img-fluid" alt="pfp" style={{
                             height: "50px",

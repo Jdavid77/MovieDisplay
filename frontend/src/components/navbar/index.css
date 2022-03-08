@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 header {
     height: 60px;
-    background-color: rgb(190, 23, 23);
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     align-items: center;
 }
@@ -9,13 +13,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: black;
+    color: white;
 }
 
 .nav-content h1 {
     font-size: 24px;
     margin: 0;
     font-weight: 700;
+    font-family: 'Great Vibes', cursive;
 }
 
 .contact-container {
