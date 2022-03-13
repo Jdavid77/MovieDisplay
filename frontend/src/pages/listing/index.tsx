@@ -1,5 +1,4 @@
 import Pagination from "../../components/pagination/index";
-import MovieScore from "../../components/moviescore";
 import MovieCard from "../../components/moviecard";
 
 export default function Listing() {
