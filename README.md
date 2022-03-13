@@ -3,7 +3,7 @@
 
 Full Stack application that displays some movies, and allows the user to give a rating to each movie
 
-Back-end - Spring Boot
+<h1>Back-end - Spring Boot</h1>
 
 ![image](https://user-images.githubusercontent.com/49655819/158075163-332419aa-d41f-4935-bc51-55176bf1aa1e.png)
 
@@ -33,9 +33,11 @@ Prod:
 
 
 
+<br>
+<br>
+<br>
 
-
-Front-End
+<h1>Front-End - React JS</h1>
 
 Front-end developed using React JS with TypeScript
 Deployed on Netlify - https://moviedisplay-joaodavid.netlify.app/
