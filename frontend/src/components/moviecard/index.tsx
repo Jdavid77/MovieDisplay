@@ -1,16 +1,14 @@
 import MovieScore from "../moviescore";
 import { Link } from 'react-router-dom'
 import './styles.css'
+import { Movie } from '../../types/movie'
 
-export default function MovieCard() {
-  const movie = {
-    id: 1,
-    image:
-      "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-    title: "The Witcher",
-    count: 2,
-    score: 4.5,
-  };
+type Props = {
+  movie: Movie
+}
+
+export default function MovieCard({ movie} : Props) {
+  
   return (
     <div>
       <img
@@ -19,8 +17,10 @@ export default function MovieCard() {
         alt={movie.title}
       />
       <div className="card-style">
-        <h3>{movie.title}</h3>
-        <MovieScore />
+        <h3 style={{
+          fontSize: "0.9rem"
+        }}>{movie.title}</h3>
+        <MovieScore count={movie.count} score={movie.score}/>
 
         <Link to={`/form/${movie.id}`} >
             <div className="btn btn-primary movie-btn">Avaliar</div>
