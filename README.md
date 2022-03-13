@@ -30,3 +30,12 @@ Prod:
 <ul>
   <li>Using Heroku to deploy backend with Heroku PostgreSQL <li>
 </ul>
+
+
+
+
+
+Front-End
+
+Front-end developed using React JS with TypeScript
+Deployed on Netlify - https://moviedisplay-joaodavid.netlify.app/
