@@ -28,7 +28,7 @@ Dev:
 Prod:
 
 <ul>
-  <li>Using Heroku to deploy backend with Heroku PostgreSQL <li>
+  <li>Using Heroku to deploy backend with Heroku PostgreSQL </li>
 </ul>
 
 
@@ -36,6 +36,7 @@ Prod:
 <br>
 <br>
 <br>
+
 
 <h1>Front-End - React JS</h1>
 
